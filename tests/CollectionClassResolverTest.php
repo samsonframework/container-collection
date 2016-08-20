@@ -5,8 +5,8 @@
  */
 namespace samsonframework\containercollection\tests\collection;
 
-use samsonframework\container\collection\attribute\Service;
-use samsonframework\container\collection\CollectionClassResolver;
+use samsonframework\containercollection\attribute\Service;
+use samsonframework\containercollection\CollectionClassResolver;
 use samsonframework\container\metadata\ClassMetadata;
 use samsonframework\containercollection\tests\TestCase;
 

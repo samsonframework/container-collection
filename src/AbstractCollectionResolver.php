@@ -7,7 +7,7 @@
  */
 namespace samsonframework\containercollection;
 
-use samsonframework\container\collection\attribute\AttributeConfiguratorInterface;
+use samsonframework\containercollection\attribute\AttributeConfiguratorInterface;
 
 /**
  * Abstract configurator resolver class.

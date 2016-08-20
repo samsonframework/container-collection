@@ -5,9 +5,9 @@
  */
 namespace samsonframework\containercollection\tests\collection;
 
-use samsonframework\container\collection\attribute\Service;
-use samsonframework\container\collection\CollectionMethodResolver;
-use samsonframework\container\collection\CollectionParameterResolver;
+use samsonframework\containercollection\attribute\Service;
+use samsonframework\containercollection\CollectionMethodResolver;
+use samsonframework\containercollection\CollectionParameterResolver;
 use samsonframework\container\metadata\ClassMetadata;
 use samsonframework\containercollection\tests\classes\FastDriver;
 use samsonframework\containercollection\tests\TestCase;

@@ -5,8 +5,8 @@
  */
 namespace samsonframework\containercollection\tests\collection;
 
-use samsonframework\container\collection\attribute\ClassName;
-use samsonframework\container\collection\CollectionPropertyResolver;
+use samsonframework\containercollection\attribute\ClassName;
+use samsonframework\containercollection\CollectionPropertyResolver;
 use samsonframework\container\metadata\ClassMetadata;
 use samsonframework\containercollection\tests\classes\Leg;
 use samsonframework\containercollection\tests\classes\Shoes;

@@ -5,7 +5,7 @@
  * Date: 27.07.2016
  * Time: 1:55.
  */
-namespace samsonframework\containercollection\collection\attribute;
+namespace samsonframework\containercollection\attribute;
 
 use samsonframework\container\configurator\ClassConfiguratorInterface;
 use samsonframework\container\configurator\ParameterConfiguratorInterface;

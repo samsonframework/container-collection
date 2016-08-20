@@ -5,8 +5,8 @@
  */
 namespace samsonframework\containercollection\tests\collection;
 
-use samsonframework\container\collection\attribute\ClassName;
-use samsonframework\container\collection\CollectionParameterResolver;
+use samsonframework\containercollection\attribute\ClassName;
+use samsonframework\containercollection\CollectionParameterResolver;
 use samsonframework\container\metadata\ClassMetadata;
 use samsonframework\container\metadata\ParameterMetadata;
 use samsonframework\containercollection\tests\classes\FastDriver;
