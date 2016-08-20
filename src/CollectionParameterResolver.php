@@ -5,7 +5,7 @@
  * Date: 29.07.2016
  * Time: 21:38.
  */
-namespace samsonframework\containercollection\collection;
+namespace samsonframework\containercollection;
 
 use samsonframework\container\configurator\ParameterConfiguratorInterface;
 use samsonframework\container\metadata\ParameterMetadata;

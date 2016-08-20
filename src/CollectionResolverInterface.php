@@ -3,7 +3,7 @@
  * Created by Vitaly Iegorov <egorov@samsonos.com>.
  * on 07.08.16 at 13:38
  */
-namespace samsonframework\containercollection\collection;
+namespace samsonframework\containercollection;
 
 use samsonframework\container\metadata\AbstractMetadata;
 use samsonframework\container\metadata\ClassMetadata;
