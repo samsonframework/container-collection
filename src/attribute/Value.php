@@ -15,45 +15,40 @@ use samsonframework\container\metadata\ParameterMetadata;
 use samsonframework\container\metadata\PropertyMetadata;
 
 /**
- * Class name attribute configurator class.
+ * Property/parameter value attribute configurator class.
  *
  * @author Vitaly Egorov <egorov@samsonos.com>
+ *
  */
-class ClassName implements ClassConfiguratorInterface, PropertyConfiguratorInterface, ParameterConfiguratorInterface, AttributeConfiguratorInterface
+class Value implements PropertyConfiguratorInterface, ParameterConfiguratorInterface, AttributeConfiguratorInterface
 {
     /** @var string Configurator key */
-    const KEY = 'class';
+    const KEY = 'value';
 
     /**
-     * @var string Dependency class name
+     * @var string Property/Parameter value
      */
-    protected $className;
+    protected $value;
 
     /**
      * Class collection configurator constructor.
      *
      * @param string $className Class name
      */
-    public function __construct(string $className)
+    public function __construct(string $value)
     {
-        $this->className = $className;
-    }
-
-    /* {@inheritDoc} */
-    public function toClassMetadata(ClassMetadata $classMetadata)
-    {
-        $classMetadata->className = $this->className;
+        $this->value = $value;
     }
 
     /* {@inheritDoc} */
     public function toPropertyMetadata(PropertyMetadata $propertyMetadata)
     {
-        $propertyMetadata->dependency = $this->className;
+        $propertyMetadata->dependency = $this->value;
     }
 
     /* {@inheritDoc} */
     public function toParameterMetadata(ParameterMetadata $parameterMetadata)
     {
-        $parameterMetadata->dependency = $this->className;
+        $parameterMetadata->dependency = $this->value;
     }
 }
