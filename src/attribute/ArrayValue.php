@@ -37,9 +37,9 @@ class ArrayValue implements PropertyConfiguratorInterface, ParameterConfigurator
      */
     public function __construct(string $value)
     {
-        foreach (explode(',', $value) as $item) {
+        foreach (explode(',', trim($value)) as $item) {
             list($itemKey, $itemValue) = explode('=>', $item);
-            $this->value[$itemKey] = $itemValue;
+            $this->value[trim($itemKey)] = trim($itemValue);
         }
     }
 
